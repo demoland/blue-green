@@ -90,7 +90,5 @@ resource "aws_lb_listener" "app" {
         duration = 1
       }
     }
-
-    target_group_arn = aws_lb_target_group.blue.arn
   }
 }
